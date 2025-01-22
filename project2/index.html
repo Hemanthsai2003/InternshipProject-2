@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="slider">
+    <button class="prev">❮</button>
+    <div class="slides">
+        
+        <div class="slides">
+            <div class="slide active" data-caption="Tirumala">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg" alt="Tirumala">
+            </div>
+            <div class="slide" data-caption="Kaashi">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg/640px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg" alt="Kaashi">
+            </div>
+            <div class="slide" data-caption="Tiruvananthapuram">    
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/fe/2b/f3/sree-padmanabhaswamy.jpg?w=1200&h=-1&s=1" alt="Tiruvananthapuram">
+            </div>
+        </div>
+        
+    </div>
+    
+    <button class="next">❯</button>
+    <div class="caption"></div>
+    <div class="thumbnails">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg" alt="Tirumala" data-index="0">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg/640px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg" alt="Kaashi" data-index="1">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/fe/2b/f3/sree-padmanabhaswamy.jpg?w=1200&h=-1&s=1" alt="Tiruvananthapuram" data-index="2">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
